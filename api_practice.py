@@ -5,7 +5,7 @@ import requests
 # エンドポイント
 url = "https://zipcloud.ibsnet.co.jp/api/search"
 
-# ?params=以降の郵便番号を入力させる（スペースとハイフンはなくすように置換）
+# ?params=以降の郵便番号を入力させる（スペースとハイフンは置換）
 zipcode = input("郵便番号入力 → ").replace(" ", "")
 
 # requests.get する際のzipcodeをdictに詰める（標準入力したもの）
